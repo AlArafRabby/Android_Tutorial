@@ -1,0 +1,558 @@
+<resources>
+    <string name="app_name">Android_tutorial</string>
+    <string name="about_us">This app helps its users to learn Android –the latest technology poping in todays world by providing the expert tutorials with 24*7 coding support.\nAs mobile apps has become more pervasive,user are looking for relevant information which our app is providing to its users.\n\nIt helps in learning the concept of programming from basic to advance.\n
+It provides:\n
+1.Android tutorials\n
+2.Interview Questions\n
+3.Android Assignments\n
+4.Android Quiz\nLearn do earn,by getting expertisation in Android Tecnology by using Android Tutorial App.\n\n\nDeveloped by – \n
+AL ARAF RABBY\nB.SC in CSE\nGMAIL:alrabbyjoyprince5@gmail.com\n
+</string>
+    <string name="title_send_feedback">Send feedback</string>
+
+    <string name="mail_feedback_email">alrabbyjoyprince5@gmail.com</string>
+    <string name="mail_feedback_subject">Feedback on this app</string>
+    <string name="mail_feedback_message">Hi,
+\n\nYour Feedback android tutorial app rocks! I would like to give you some feedback:</string>
+    <string name="inter1">  1.Implement a life cycle of an android application using toast.\n\n
+2.Implement a simple calculator using button action listener. .\n\n
+3.Create an application which implement data transfer between activities. .\n\n
+4.Create an application which implements multiple spinners dependent on each other. .\n\n
+5.Create an application which loads multiple layouts using dynamic XML. .\n\n
+6. Create an application which shows a list of name and images together. .\n\n
+7. Create an application which shows images in grid view. When you long press on image it will show you two options remove and zoom the image on another activity.When you touch on remove from grid view. .\n\n
+8. Create an application which shows you list of name and age together when you click on the add option menu the another dialog box open fill the details and when you press ok it will load in the list view. .\n\n
+9.Create a service that when called store missed calls on in database. .\n\n
+10.Create a service that executes when there is change in location and store the location and store the location in database with following fields -: id ,latitude , longitude and time. .\n\n
+</string>
+    <string name="inter2">  11. Create an application which plays an audio and video file. \n\n
+12.Create a service that execute every time when system boot complets and send user GPS location to a specific mobile no. \n\n
+13.Develope an application that store SMS from particular number in your own database. \n\n
+14. Create a service that execute 5 min and capture the current camera picture store it in my data foulder in  SDCard.The picture name should be dd_mm_yy-hh_mm.jpeg. \n\n
+15. Create an application which shows you a grid of image .When you click on image it will rotate for 1 second. \n\n
+16. Create an application which implements shared preference. \n\n
+17.Create an application which capture and save its picture on file when a user enter wrong password on mobile. \n\n
+18. Create an application with the help of servlet to maintain the Employee details. \n\n
+19.Create SMS sending Application using Custom Dialog Box. \n\n
+20. Create an application store data in SQLite database and send data one activity to another activity. \n\n
+</string>
+    <string name="assign">
+ 1. What is android?  \n\n
+A.Android is a stack of software for mobile devices which has Operating System, middleware and some key applications. The application executes within its own process and its own instance of Dalvik Virtual Machine. Many Virtual Machines run efficiently by a DVM device. DVM executes Java language byte code which later transforms into .dex format files. \n\n
+2. What are the advantages of Android? \n\n
+A. The following are the advantages of Android:
+* The customer will be benefited from wide range of mobile applications to choose, since the monopoly of wireless carriers like AT and T and Orange will be broken by Google Android. * Features like weather details, live RSS feeds, opening screen, icon on the opening screen can be customized * Innovative products like the location-aware services, location of a nearby convenience store etc., are some of the additive facilities in Android. Components can be reused and replaced by the application framework. * Optimized DVM for mobile devices * SQLite enables to store the data in a structured manner. * Supports GSM telephone and Bluetooth, WiFi, 3G and EDGE technologies * The development is a combination of a device emulator, debugging tools, memory profiling and plug-in for Eclipse IDE. \n\n
+3. Explain about the exceptions of Android? \n\n
+A.The following are the exceptions that are supported by Android
+ * InflateException : When an error conditions are occurred, this exception is thrown
+ * Surface.OutOfResourceException: When a surface is not created or resized, this exception is thrown
+* SurfaceHolder.BadSurfaceTypeException: This exception is thrown from the lockCanvas() method, when invoked on a Surface whose is SURFACE_TYPE_PUSH_BUFFERS
+* WindowManager.BadTokenException: This exception is thrown at the time of trying to add view an invalid WindowManager.LayoutParamstoken. \n\n
+4. Describe the APK format. \n\n
+A.The APK file is compressed the AndroidManifest.xml file, application code (.dex files), resource files, and other files. A project is compiled into a single .apk file.
+5. What is .apk extension? \n\n
+A.The extension for an Android package file, which typically contains all of the files related to a single Android application. The file itself is a compressed collection of an AndroidManifest.xml file, application code (.dex files), resource files, and other files. A project is compiled into a single .apk file. \n\n
+6. What is .dex extension? \n\n
+A.Android programs are compiled into .dex (Dalvik Executable) files, which are in turn zipped into a single .apk file on the device. .dex files can be created by automatically translating compiled applications written in the Java programming language. \n\n
+7. Explain the Architecture of Android ? \n\n
+A. Top -> Applications (Contacts, Browser, Phone, etc)
+Below Applications -> Application Framework(Activity Manager, Window Manager, Content Providers, View System, Package manager,
+Telephony manager, Resource, Notification, Location managers)
+Below Application Framework -> System Libraries(Like Sqlite, webkit, SSL, OpenGL, Media Framework etc) and Android Runtime( Core Libraries and DVM).
+Atlast Last -> Linux Kernel (which composed of drivers like display, camera etc.) \n\n
+10. What is an activity? \n\n
+A. A single screen in an application, with supporting Java code.
+An activity presents a visual user interface for one focused endeavor the user can undertake.
+For example, an activity might present a list of menu items users can choose from or it might display photographs along with their captions. \n\n
+11. What is a service? \n\n
+A.A service doesn’t have a visual user interface, but rather runs in the background for an indefinite period of time.
+For example, a service might play background music as the user attends to other matters, or it might fetch data over the network or calculate something and provide the result to activities that need it.Each service extends the Service base class. \n\n
+12. How to Remove Desktop icons and Widgets? \n\n
+A. Press and Hold the icon or widget. The phone will vibrate and on the bottom of the phone you will see anoption to remove. While still holding the icon or widget drag it to the remove button. Once remove turns red drop the item and it is gone \n\n
+13. Describe a real time scenario where android can be used? \n\n
+A .Imagine a situation that you are in a country where no one understands the language you speak and you can not read or write. However, you have mobile phone with you.
+14. How to select more than one option from list in android xml file? ******** \n\n
+A. Give an example. Specify android id, layout height and width as depicted in the following example. \n\n
+15. What languages does Android support for application development? \n\n
+A.Android applications are written using the Java programming language. \n\n
+16. Describe Android Application Architecture? \n\n
+A.Android Application Architecture has the following components:
+• Services – like N
+• Intent – To perform inter-communication network Operation between activities or services
+• Resource Externalization – such as strings and graphics
+• Notification signaling users – light, sound, icon, notification, dialog etc . \n\n
+17. What is the Android Open Source Project? \n\n
+A. We use the phrase “Android Open Source Project” or “AOSP” to refer to the people, the processes, and the source code that make up Android. \n\n
+18. Why did we open the Android source code? \n\n
+A .Google started the Android project in response to our own experiences launching mobile apps. We wanted to make sure that there would always be an open platform available for carriers, OEMs, and developers to use to make their innovative ideas a reality. We also wanted to make sure that there was no central point of failure, so that no single industry player could restrict or control the innovations of any other. The single most important goal of the Android Open-Source Project (AOSP) is to make sure that the open-source Android software is implemented as widely and compatibly as possible, to everyone’s benefit. \n\n
+19. What is the Guardian app for Android?
+A.The Guardian app for Android delivers all the best content from guardian.co.uk to your phone or tablet. Read the latest news, sport, comment and reviews, watch video, listen to brodcasts and browse stunning picture galleries while on the move.
+20. What features does it have?
+A .- Navigate by section, topic or contributor
+- Download your homepage and favourites for offline reading with the touch of a button, or schedule a daily download for a time that suits you
+- Browse our award-winning audio and video content
+- Save contributors, topics and sections to your favourites folder
+- Add favourites to your homescreen with an expanded view or link
+- Swipe through stunning full-screen picture galleries
+- Share articles and galleries via the Android share function
+- View content in portrait or landscape orientation
+21. Will
+</string>
+    <string name="What_android">Android is a mobile operating system developed by Google, based on a modified version of the Linux kernel and other open source software and designed primarily for touchscreen mobile devices such as smartphones and tablets. In addition, Google has further developed Android TV for televisions, Android Auto for cars, and Wear OS for wrist watches, each with a specialized user interface. Variants of Android are also used on game consoles, digital cameras, PCs and other electronics.\n\n
+Initially developed by Android Inc., which Google bought in 2005, Android was unveiled in 2007, with the first commercial Android device launched in September 2008. The operating system has since gone through multiple major releases, with the current version being 8.1 "Oreo", released in December 2017. The core Android source code is known as Android Open Source Project (AOSP), and is primarily licensed under the Apache License.\n\n
+Android has been the best-selling OS worldwide on smartphones since 2011 and on tablets since 2013. As of May 2017, it has over two billion monthly active users, the largest installed base of any operating system, and as of 2017, the Google Play store features over 3.5 million apps.\n\n
+
+Features of Android:\n\n
+
+1) Near Field Communication (NFC)\n\n
+Most Android devices support NFC, which allows electronic devices to easily interact across short distances. The main aim here is to create a payment option that is simpler than carrying credit cards or cash, and while the market hasn’t exploded as many experts had predicted, there may be an alternative in the works, in the form of Bluetooth Low Energy (BLE).\n\n
+2) Alternate Keyboards\n\n
+Android supports multiple keyboards and makes them easy to install; the SwiftKey, Skype, and 8pen apps all offer ways to quickly change up your keyboard style. Other mobile operating systems either don’t permit extra keyboards at all, or the process to install and use them are tedious and time-consuming. \n\n
+3) Infrared Transmission\n\n
+The Android operating system supports a built-in infrared transmitter, allowing you to use your phone or tablet as a remote control.
+4) No-Touch Control\n\n
+Using Android apps such as Wave Control, users can control their phones touch-free, using only gestures. Have messy hands but need to turn off your screen or change a song? Simple. This could prove especially useful if you’re driving, so you can keep both eyes on the road. \n\n
+5) Automation\n\n
+The Tasker app lets you not only control app permissions but also automate them. Do you only want your location services to be active during the day? Want to create a customized way to start your music—for example, with a voice command and at a certain volume? Tasker can help.
+6) Wireless App Downloads\n\n
+Accessing app stores on any mobile device can be frustrating, but iOS makes it a little more difficult—download an app on your computer, and it won’t sync to your mobile device until you plug in and access iTunes. Using the Android Market or third-party options like AppBrain, meanwhile, let you download apps on your PC and then automatically sync them your Droid, no plugging required. \n\n
+7) Storage and Battery Swap\n\n
+Android phones also have unique hardware capabilities. Google’s OS makes it possible to remove and upgrade your battery or to replace one that no longer holds a charge. In addition, Android phones come with SD card slots for expandable storage. \n\n
+8) Custom Home Screens\n\n
+While it’s possible to hack certain phones to customize the home screen, Android comes with this capability from the get-go. Download a third-party launcher like Nova, Apex or Slide and you can add gestures, new shortcuts, or even performance enhancements for older-model devices. \n\n
+9) Widgets\n\n
+Apps are versatile, but sometimes you want information at a glance instead of having to open an app and wait for it to load. Android widgets let you display just about any feature you choose, right on the home screen—including weather apps, music widgets, or productivity tools that helpfully remind you of upcoming meetings or approaching deadlines. \n\n
+10) Custom ROMs\n\n
+This is a big one. Because the Android operating system is open source, developers can tweak the current OS and build their own versions, which users can download and install in place of the stock OS. Some are filled with features, while others change the look and feel of a device. Chances are if there’s a feature you want, someone has already built a custom ROM for it. \n\n
+
+</string>
+    <string name="history"> History of Android\n\n
+The history and versions of android are interesting to know. The code names of android ranges from A to J currently, such as Aestro, Blender, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwitch, Jelly Bean, KitKat and Lollipop. Lets understand the android history in a sequence. \n\n
+1) Initially, Andy Rubin founded Android Incorporation in Palo Alto, California, United States in October, 2003. \n\n
+2) In 17th August 2005, Google acquired android Incorporation. Since then, it is in the subsidiary of Google Incorporation. \n\n
+3) The key employees of Android Incorporation are Andy Rubin, Rich Miner, Chris White and Nick Sears. \n\n
+4) Originally intended for camera but shifted to smart phones later because of low market for camera only.\n\n
+5) Android is the nick name of Andy Rubin given by coworkers because of his love to robots. \n\n
+6) In 2007, Google announces the development of android OS. \n\n
+7) In 2008, HTC launched the first android mobile. \n\n
+Android Versions, Codename and API\n\n
+Lets see the android versions, codenames and API Level provided by Google. \n\n
+
+</string>
+    <string name="architecture1">  Android Architecture\n\n
+
+Android is architected in the form of a software stack comprising applications, an operating system, run-time environment, middleware, services and libraries. This architecture can, perhaps, best be represented visually as outlined in Figure 6-1. Each layer of the stack, and the corresponding elements within each layer, are tightly integrated and carefully tuned to provide the optimal application development and execution environment for mobile devices.
+</string>
+    <string name="architecture2">  The remainder of this chapter will work through the different layers of the Android stack, starting at the bottom with the Linux Kernel. \n\n
+1.The Linux Kernel\n\n
+Positioned at the bottom of the Android software stack, the Linux Kernel provides a level of abstraction between the device hardware and the upper layers of the Android software stack. Based on Linux version 2.6, the kernel provides preemptive multitasking, low-level core system services such as memory, process and power management in addition to providing a network stack and device drivers for hardware such as the device display, Wi-Fi and audio. \n\n
+The original Linux kernel was developed in 1991 by Linus Torvalds and was combined with a set of tools, utilities and compilers developed by Richard Stallman at the Free Software Foundation to create a full operating system referred to as GNU/Linux. Various Linux distributions have been derived from these basic underpinnings such as Ubuntu and Red Hat Enterprise Linux. \n\n
+
+
+2.Android Runtime - Dalvik Virtual Machine\n\n
+As previously noted, the Linux kernel provides a multitasking execution environment allowing multiple processes to execute concurrently. It would be easy to assume, therefore, that each Android application simply runs as a process directly on the Linux kernel. In fact, each application running on an Android device does so within its own instance of the Dalvik virtual machine (VM). \n\n
+Running applications in virtual machines provides a number of advantages. Firstly, applications are essentially sandboxed, in that they cannot detrimentally interfere (intentionally or otherwise) with the operating system or other applications, nor can they directly access the device hardware. Secondly, this enforced level of abstraction makes applications platform neutral in that they are never tied to any specific hardware. \n\n
+The Dalvik virtual machine was developed by Google and relies on the underlying Linux kernel for low-level functionality. It is more efficient than the standard Java VM in terms of memory usage, and specifically designed to allow multiple instances to run efficiently within the resource constraints of a mobile device. \n\n
+
+
+3.Android Runtime – Core Libraries\n\n
+a.Dalvik VM Specific Libraries\n\n
+This is a set of libraries used predominantly for interacting directly with an instance of the Dalvik VM and is unlikely to be used by most Android application developers. \n\n
+b.Java Interoperability Libraries\n\n
+Android applications are predominantly developed using the Java programming language. The Standard Java development environment includes a vast array of classes that are contained in the core Java runtime libraries. These libraries provide support for tasks such as string handling, networking and file manipulation (to name but a few) and are both familiar to, and widely used by Java developers regardless of platform. \n\n
+c.Android Libraries\n\n
+This category encompasses those Java-based libraries that are specific to Android development. Examples of libraries in this category include the application framework libraries in addition to those that facilitate user interface building, graphics drawing and database access. \n\n
+A summary of some key core Android libraries available to the Android developer is as follows: \n\n
+•	android.app – Provides access to the application model and is the cornerstone of all Android applications.
+•	android.content – Facilitates content access, publishing and messaging between applications and application components.
+•	android.database – Used to access data published by content providers and includes SQLite database management classes.
+•	android.graphics – A low-level 2D graphics drawing API including colors, points, filters, rectangles and canvases.
+•	android.hardware – Presents an API providing access to hardware such as the accelerometer and light sensor.
+•	android.opengl – A Java interface to the OpenGL ES 3D graphics rendering API.
+•	android.os – Provides applications with access to standard operating system services including messages, system services and inter-process communication.
+•	android.media – Provides classes to enable playback of audio and video.
+•	android.net – A set of APIs providing access to the network stack. Includes android.net.wifi, which provides access to the device’s wireless stack.
+•	android.provider – A set of convenience classes that provide access to standard Android content provider databases such as those maintained by the calendar and contact applications.
+•	android.text – Used to render and manipulate text on a device display.
+•	android.util – A set of utility classes for performing tasks such as string and number conversion, XML handling and date and time manipulation.
+•	android.view – The fundamental building blocks of application user interfaces.
+•	android.widget - A rich collection of pre-built user interface components such as buttons, labels, list views, layout managers, radio buttons etc.
+•	android.webkit – A set of classes intended to allow web-browsing capabilities to be built into applications. \n\n
+Having covered the Java-based core libraries in the Android runtime, it is now time to turn our attention to the C/C++ based libraries contained in this layer of the Android software stack. \n\n
+d.C/C++ Libraries\n\n
+The Android runtime core libraries outlined in the preceding section are Java-based and provide the primary APIs for developers writing Android applications. It is important to note, however, that the core libraries do not actually perform much of the actual work and are, in fact, essentially Java “wrappers” around a set of C/C++ based libraries. When making calls, for example, to the android.opengl library to draw 3D graphics on the device display, the library actually ultimately makes calls to the OpenGL ES C++ library which, in turn, works with the underlying Linux kernel to perform the drawing tasks. \n\n
+
+
+4.Application Framework\n\n
+The Application Framework is a set of services that collectively form the environment in which Android applications run and are managed. This framework implements the concept that Android applications are constructed from reusable, interchangeable and replaceable components. This concept is taken a step further in that an application is also able to publish its capabilities along with any corresponding data so that they can be found and reused by other applications. \n\n
+The Android framework includes the following key services: \n\n
+•	Activity Manager – Controls all aspects of the application lifecycle and activity stack.
+•	Content Providers – Allows applications to publish and share data with other applications.
+•	Resource Manager – Provides access to non-code embedded resources such as strings, color settings and user interface layouts.
+•	Notifications Manager – Allows applications to display alerts and notifications to the user.
+•	View System – An extensible set of views used to create application user interfaces.
+•	Package Manager – The system by which applications are able to find out information about other applications currently installed on the device.
+•	Telephony Manager – Provides information to the application about the telephony services available on the device such as status and subscriber information.
+•	Location Manager – Provides access to the location services allowing an application to receive updates about location changes. \n\n
+
+
+5.Applications\n\n
+Located at the top of the Android software stack are the applications. These comprise both the native applications provided with the particular Android implementation (for example web browser and email applications) and the third party applications installed by the user after purchasing the device. \n\n
+
+
+6.Summary\n\n
+A good Android development knowledge foundation requires an understanding of the overall architecture of Android. Android is implemented in the form of a software stack architecture consisting of a Linux kernel, a runtime environment and corresponding libraries, an application framework and a set of applications. Applications are predominantly written in Java and run within individual instances of the Dalvik virtual machine. The key goals of the Android architecture are performance and efficiency, both in application execution and in the implementation of reuse in application design. \n\n
+</string>
+    <string name="emulator">  Android Emulator\n\n
+
+The Android Emulator simulates various Android phone, tablet, Wear OS, and Android TV devices on your computer. It comes with predefined configurations for popular device types and can transfer data faster than a device connected over USB.\n\n
+The Android Emulator provides almost all the capabilities of a real Android device. You can simulate incoming phone calls and text messages, specify the location of the device, simulate different network speeds, simulate rotation and other hardware sensors, access the Google Play Store, and much more. \n\n
+
+Requirements\n\n
+The Android Emulator has additional requirements beyond the basic system requirements for Android Studio: \n\n
+•	SDK Tools 25.0.10 or higher\n
+•	64-bit processor\n
+•	Windows: CPU with UG (unrestricted guest) support\n
+•	HAXM 6.2.1 or later\n
+The accelerated emulator requires one of the following on Windows or Linux: \n\n
+•	Windows or Linux: Intel processor with support for Intel VT-x, Intel EM64T (Intel 64), and Execute Disable (XD) Bit functionality.\n
+•	Linux: AMD processor with support for AMD Virtualization (AMD-V) and Supplemental Streaming SIMD Extensions 3 (SSSE3). \n
+To work with Android 8.1 (API level 27) and higher system images, an attached webcam must have the capability to capture 720p frames. \n\n
+What's not supported\n\n
+The Android Emulator doesn't include virtual hardware for the following:
+•	Bluetooth\n
+•	NFC\n
+•	SD card insert/eject\n
+•	Device-attached headphones\n
+•	USB\n\n
+The watch emulator for Wear OS doesn't support the Overview (Recent Apps) button, D-pad, and fingerprint sensor. \n\n
+Run an app in the Android Emulator\n\n
+You can run an app from an Android Studio project, or you can run an app that's been installed on the Android Emulator as you would run any app on a device. \n\n
+
+</string>
+
+    <string name="widgets1"> Android Widgets\n\n
+There are given a lot of android widgets with simplified examples such as Button, EditText, AutoCompleteTextView, ToggleButton, DatePicker, TimePicker, ProgressBar etc.\n\n
+Android widgets are easy to learn. The widely used android widgets with examples are given below: \n\n
+Android Button\n\n
+Lets learn how to perform event handling on button click. \n\n
+Android Toast\n\n
+Displays information for the short duration of time. \n\n
+Custom Toast\n\n
+We are able to customize the toast, such as we can display image on the toast. \n\n
+ToggleButton\n\n
+It has two states ON/OFF. \n\n
+CheckBox\n\n
+Lets see the application of simple food ordering. \n\n
+AlertDialog\n\n
+AlertDialog displays a alert dialog containing the message with OK and Cancel buttons. \n\n
+Spinner\n\n
+Spinner displays the multiple options, but only one can be selected at a time. \n\n
+AutoCompleteTextView\n\n
+Let's see the simple example of AutoCompleteTextView. \n\n
+RatingBar\n\n
+RatingBar displays the rating bar. \n\n
+DatePicker\n\n
+Datepicker displays the datepicker dialog that can be used to pick the date. \n\n
+TimePicker\n\n
+TimePicker displays the timepicker dialog that can be used to pick the time. \n\n
+ProgressBar\n\n
+ProgressBar displays progress task. \n\n
+</string>
+    <string name="widgets2">  Widgets\n\n
+
+Widgets are an essential aspect of home screen customization. You can imagine them as "at-a-glance" views of an apps most important data and functionality that is accessible right from the users home screen. Users can move widgets across their home screen panels, and, if supported, resize them to tailor the amount of information within a widget to their preference. \n\n
+
+Widget types\n\n
+As you begin planning your widget, think about what kind of widget youre trying to build. Widgets typically fall into one of the following categories:
+
+Information widgets\n\n
+Information widgets typically display a few crucial information elements that are important to a user and track how that information changes over time. Good examples for information widgets are weather widgets, clock widgets or sports score trackers. Touching information widgets typically launches the associated app and opens a detail view of the widget information. \n\n
+
+Collection widgets\n\n
+As the name implies, collection widgets specialize in displaying multitude elements of the same type, such as a collection of pictures from a gallery app, a collection of articles from a news app or a collection of emails/messages from a communication app. Collection widgets typically focus on two use cases: browsing the collection, and opening an element of the collection to its detail view for consumption. Collection widgets can scroll vertically. \n\n
+
+Control widgets\n\n
+The main purpose of a control widget is to display often used functions that the user can trigger right from the home screen without having to open the app first. Think of them as remote controls for an app. A typical example of control widgets are music app widgets that allow the user to play, pause or skip music tracks from outside the actual music app. \n\n
+
+Hybrid widgets\n\n
+While all widgets tend to gravitate towards one of the three types described above, many widgets in reality are hybrids that combine elements of different types. \n\n
+For the purpose of your widget planning, center your widget around one of the base types and add elements of other types if needed. \n\n
+A music player widget is primarily a control widget, but also keeps the user informed about what track is currently playing. It essentially combines a control widget with elements of an information widget type. \n\n
+
+</string>
+    <string name="activity1"> The Activity Lifecycle\n\n
+
+An Activity is the single screen in android .It is like window or frame of java .Android Activity Lifecycle is controlled by 7 methods of android app activity class .The android activity is the subclass of Context Theme Wrapper class.They followes: \n\n
+</string>
+
+    <string name="activity2"> onCreate()\n\n
+You must implement this callback, which fires when the system first creates the activity. On activity creation, the activity enters the Created state. In the onCreate() method, you perform basic application startup logic that should happen only once for the entire life of the activity. For example, your implementation of onCreate() might bind data to lists, initialize background threads, and instantiate some class-scope variables. This method receives the parameter savedInstanceState, which is a Bundle object containing the activitys previously saved state. If the activity has never existed before, the value of the Bundle object is null. \n\n
+
+onStart()\n\n
+When the activity enters the Started state, the system invokes this callback. The onStart() call makes the activity visible to the user, as the app prepares for the activity to enter the foreground and become interactive. For example, this method is where the app initializes the code that maintains the UI. It might also register a BroadcastReceiver that monitors changes that are reflected in the UI. \n\n
+The onStart() method completes very quickly and, as with the Created state, the activity does not stay resident in the Started state. Once this callback finishes, the activity enters the Resumed state, and the system invokes the onResume() method. \n\n
+onResume()\n\n
+When the activity enters the Resumed state, it comes to the foreground, and then the system invokes the onResume() callback. This is the state in which the app interacts with the user. The app stays in this state until something happens to take focus away from the app. Such an event might be, for instance, receiving a phone call, the user’s navigating to another activity, or the device screen’s turning off. \n\n
+When an interruptive event occurs, the activity enters the Paused state, and the system invokes the onPause() callback. \n\n
+
+onPause()\n\n
+The system calls this method as the first indication that the user is leaving your activity (though it does not always mean the activity is being destroyed). Use the onPause() method to pause operations such animations and music playback that should not continue while the Activity is in the Paused state, and that you expect to resume shortly. There are several reasons why an activity may enter this state. \n\n
+
+onStop()\n\n
+When your activity is no longer visible to the user, it has entered the Stopped state, and the system invokes the onStop() callback. This may occur, for example, when a newly launched activity covers the entire screen. The system may also call onStop() when the activity has finished running, and is about to be terminated. \n\n
+
+
+onDestroy()\n\n
+Called before the activity is destroyed. This is the final call that the activity receives. The system either invokes this callback because the activity is finishing due to someone's calling finish(), or because the system is temporarily destroying the process containing the activity to save space. You can distinguish between these two scenarios with the isFinishing() method. The system may also call this method when an orientation change occurs, and then immediately call onCreate() to recreate the process (and the components that it contains) in the new orientation. \n\n
+
+</string>
+    <string name="option"> The OptionMenu Widget\n\n
+The OptionMenu class is a helper class that creates a popup menu, and a button to display it. The option menu is similar to the combobox widgets commonly used on Windows. \n\n
+To get the currently selected value from an option menu, you have to pass in a Tkinter variable. See the patterns section for some examples. \n\n
+Android Option Menus are the primary menus of android. They can be used for settings, search, delete item etc. \n\n
+Here, we are going to see two examples of option menus. First, the simple option menus and second, options menus with images. \n\n
+Here, we are inflating the menu by calling the inflate() method of MenuInflater class. To perform event handling on menu items, you need to override onOptionsItemSelected() method of Activity class. \n\n
+Android Option Menu Example\n\n
+Lets see how to create menu in android. Lets see the simple option menu example that contains three menu items. \n\n
+activity_main.xml\n\n
+We have only one textview in this file. \n
+
+
+</string>
+
+    <string name="s1"> A service is a component that runs in the background to perform long-running operations without needing to interact with the user and it works even if application is destroyed. A service can essentially take two states –</string>
+
+    <string name="s2"> A service has life cycle callback methods that you can implement to monitor changes in the services state and you can perform work at the appropriate stage. The following diagram on the left shows the life cycle when the service is created with startService() and the diagram on the right shows the life cycle when the service is created with bindService(): (image courtesy : android.com </string>
+
+    <string name="service3"> To create an service, you create a Java class that extends the Service base class or one of its existing subclasses. The Service base class defines various callback methods and the most important are given below. You dont need to implement all the callbacks methods. However, its important that you understand each one and implement those that ensure your app behaves the way users expect.</string>
+    <string name="service4"> Example
+This example will take you through simple steps to show how to create your own Android Service. Follow the following steps to modify the Android application we created in Hello World Example chapter −
+</string>
+    <string name="service5"> Activity main .xml(UI):</string>
+    <string name="service6">Activity_next.xml(UI):
+It is the layout of next activity:
+</string>
+    <string name="service7"> My_services.java(Java Class):</string>
+    <string name="service8">Main activity,java(Java file):</string>
+    <string name="service9"> Next page.java(Java File):</string>
+    <string name="service10"> Android Manifest.xml file:</string>
+    <string name="service11"> OUTPUT:</string>
+    <string name="graphic1"> Graphics:\n
+The Android framework offers a variety of graphics rendering APIs for 2D and 3D that interact with manufacturer implementations of graphics drivers, so it is important to have a good understanding of how those APIs work at a higher level. This page introduces the graphics hardware abstraction layer (HAL) upon which those drivers are built.\n
+Application developers draw images to the screen in two ways: with Canvas or OpenGL. See System-level graphics architecture for a detailed description of Android graphics components.\n
+android.graphics.Canvas is a 2D graphics API and is the most popular graphics API among developers. Canvas operations draw all the stock and custom android.view.Views in Android. In Android, hardware acceleration for Canvas APIs is accomplished with a drawing library called OpenGLRenderer that translates Canvas operations to OpenGL operations so they can execute on the GPU.\n
+</string>
+    <string name="graphic2"> Android graphics components\n
+No matter what rendering API developers use, everything is rendered onto a "surface." The surface represents the producer side of a buffer queue that is often consumed by SurfaceFlinger. Every window that is created on the Android platform is backed by a surface. All of the visible surfaces rendered are composited onto the display by SurfaceFlinger.\n
+The following diagram shows how the key components work together:
+</string>
+
+    <string name="graphic3"> Android Simple Graphics Example
+The android.graphics.Canvas can be used to draw graphics in android. It provides methods to draw oval, rectangle, picture, text, line etc.\n
+The android.graphics.Paint class is used with canvas to draw objects. It holds the information of color and style.\n
+In this example, we are going to display 2D graphics in android.
+</string>
+
+    <string name="graphic4"> activity_main.xml:</string>
+    <string name="graphic5"> Activity class:</string>
+    <string name="graphic6"> Output:</string>
+
+    <string name="web1">  Android Web Service: \n
+Creating web service application in android is not a difficult task. We can easily create a restful web service application in android to authenticate or save information into the external database such as oracle, mysql, postgre sql, sql server using other application developed in java, .net, php etc languages. That is what we are going to do.\n
+Android Restful Web Service: \n
+Before developing web services application, you must have basic knowledge of SOAP and Restful web services. That is why, we are going to discuss basic points about web services such as what is web service and brief information about SOAP and Restful web services.\n
+What is Web Service? \n
+A web service is a standard for exchanging information between different types of applications irrespective of language and platform. For example, an android application can interact with java or .net application using web services.\n
+</string>
+    <string name="web2"> Web-Based Content:\n
+There are essentially two ways to deliver an application on Android: as a client-side application (developed using the Android SDK and installed on user devices in an APK) or as a web application (developed using web standards and accessed through a web browser—theres nothing to install on user devices).\n
+If you chose to provide a web-based app for Android-powered devices, you can rest assured that major web browsers for Android (and the WebView framework) allow you to specify viewport and style properties that make your web pages appear at the proper size and scale on all screen configurations.\n
+Figure 1 illustrates how you can provide access to your web pages from either a web browser or your own Android app. However, you shouldnt develop an Android app simply as a means to view your web site. Rather, the web pages you embed in your Android app should be designed especially for that environment. You can even define an interface between your Android application and your web pages that allows JavaScript in the web pages to call upon APIs in your Android application—providing Android APIs to your web-based application.
+</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="Open">OPEN</string>
+    <string name="Close">Close</string>
+    <string name="toast1"> Android Toast\n
+Andorid Toast can be used to display information for the short period of time. A toast contains message to be displayed quickly and disappears after sometime.\n
+The android.widget.Toast class is the subclass of java.lang.Object class.\n
+You can also create custom toast as well for example toast displaying image. You can visit next page to see the code for custom toast.\n
+Toast class\n
+Toast class is used to show notification for a particular interval of time. After sometime it disappears. It doesn't block the user interaction.\n
+Constants of Toast class\n
+There are only 2 constants of Toast class which are given below.
+</string>
+    <string name="toast2"> Full code of activity class displaying Toast\n
+Let's see the code to display the toast.
+</string>
+    <string name="spinner">  Android Spinner\n
+Android Spinner is like the combox box of AWT or Swing. It can be used to display the multiple options to the user in which only one item can be selected by the user.\n
+Android spinner is like the drop down menu with multiple values from which the end user can select only one value.\n
+Android spinner is associated with AdapterView. So you need to use one of the adapter classes with spinner.\n
+Android Spinner class is the subclass of AsbSpinner class.\n
+Android Spinner Example:\n
+In this example, we are going to display the country list. You need to use ArrayAdapter class to store the country list.\n
+Let's see the simple example of spinner in android.\n
+activity_main.xml
+Drag the Spinner from the pallete, now the activity_main.xml file will like this:
+</string>
+    <string name="rating1"> Android RatingBar:\n
+Android RatingBar can be used to get the rating from the user. The Rating returns a floating-point number. It may be 2.0, 3.5, 4.0 etc.\n
+Android RatingBar displays the rating in stars. Android RatingBar is the subclass of AbsSeekBar class.\n
+The getRating() method of android RatingBar class returns the rating number.
+</string>
+    <string name="rating2">  Android RatingBar Example\n
+Lets see the simple example of rating bar in android.\n
+activity_main.xml\n
+Drag the RatingBar and Button from the pallete, now the activity_main.xml file will like this:
+</string>
+    <string name="progress1">  Android ProgressBar\n
+We can display the android progress bar dialog box to display the status of work being done e.g. downloading file, analyzing status of work etc.\n
+In this example, we are displaying the progress dialog for dummy file download operation.\n
+Here we are using android.app.ProgressDialog class to show the progress bar. Android ProgressDialog is the subclass of AlertDialog class.\n
+The ProgressDialog class provides methods to work on progress bar like setProgress(), setMessage(), setProgressStyle(), setMax(), show() etc. The progress range of Progress Dialog is 0 to 10000.\n
+Let's see a simple example to display progress bar in android.
+</string>
+    <string name="progress2"> Android Progress Bar Example by ProgressDialog\n
+Lets see a simple example to create progress bar using ProgressDialog class.\n
+activity_main.xml\n
+Drag one button from the pallete, now the activity_main.xml file will look like this:
+</string>
+    <string name="startactivity1"> Android StartActivityForResult:\n
+By the help of android startActivityForResult() method, we can get result from another activity.\n
+By the help of android startActivityForResult() method, we can send information from one activity to another and vice-versa. The android startActivityForResult method, requires a result from the second activity (activity to be invoked).\n
+In such case, we need to override the onActivityResult method that is invoked automatically when second activity returns result.\n
+Method Signature\n
+There are two variants of startActivityForResult() method.\n
+1.	public void startActivityForResult (Intent intent, int requestCode)  \n
+2.	public void startActivityForResult (Intent intent, int requestCode, Bundle options)
+</string>
+    <string name="startactivity2">  Android StartActivityForResult Example\n
+Lets see the simple example of android startActivityForResult method.\n
+activity_main.xml\n
+Drag one textview and one button from the pallete, now the xml file will look like this.
+</string>
+
+    <string name="startactivity3"> second_main.xml\n
+This xml file is created automatically when you create another activity. To create new activity Right click on the package inside the src -> New -> Other ->Android Activity.\nNow drag one editText, one textView and one button from the pallete, now the xml file will look like this:
+</string>
+    <string name="context"> Android Context Menu:\n
+Android context menu appears when user press long click on the element. It is also known as floating menu.\n
+It doesnt support item shortcuts and icons.\n
+Android Context Menu Example:\n
+Lets see the simple example of context menu in android.\n
+activity_main.xml\n
+Drag one listview from the pallete, now the xml file will look like this:
+</string>
+    <string name="popup1"> Android Popup Menu:\n
+Android Popup Menu displays the menu below the anchor text if space is available otherwise above the anchor text. It disappears if you click outside the popup menu.\n
+The android.widget.PopupMenu is the direct subclass of java.lang.Object class.\n
+Android Popup Menu Example:
+Let's see how to create popup menu in android.\n
+activity_main.xml\n
+It contains only one button.
+</string>
+    <string name="popup2">popup_menu.xml\n
+It contains three items as show below. It is created inside the res/menu directory.
+</string>
+    <string name="popup3"> Activity class\n
+It displays the popup menu on button click.
+</string>
+    <string name="sqilite1"> Android SQLite:
+SQLite is an open-source relational database i.e. used to perform database operations on android devices such as storing, manipulating or retrieving persistent data from the database.\n
+It is embedded in android bydefault. So, there is no need to perform any database setup or administration task.\n
+Here, we are going to see the example of sqlite to store and fetch the data. Data is displayed in the logcat. For displaying data on the spinner or listview, move to the next page.\n
+SQLiteOpenHelper class provides the functionality to use the SQLite database.\n
+SQLiteOpenHelper class:\n
+The android.database.sqlite.SQLiteOpenHelper class is used for database creation and version management. For performing any database operation, you have to provide the implementation of onCreate() and onUpgrade() methods of SQLiteOpenHelper class.\n
+Constructors of SQLiteOpenHelper class\n
+There are two constructors of SQLiteOpenHelper class.
+</string>
+    <string name="sqlite2"> Methods of SQLiteOpenHelper class\n
+There are many methods in SQLiteOpenHelper class. Some of them are as follows:
+    </string>
+    <string name="sqlite3"> SQLiteDatabase class\n
+It contains methods to be performed on sqlite database such as create, update, delete, select etc.\n
+Methods of SQLiteDatabase class\n
+There are many methods in SQLiteDatabase class. Some of them are as follows:
+</string>
+    <string name="sqlite4"> Example of android SQLite database\n
+Lets see the simple example of android sqlite database.
+</string>
+    <string name="sqlite5"> Output:\n
+Open Logcat and see the output. It is the basic example of android sqlite without any GUI.
+For GUI application with android SQLite, visit next page.
+</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/and"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:title="Android Tutorial"/>
+
+    <item android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback_black_24dp"
+        android:title="feedback"/>
+
+    <item android:id="@+id/update"
+        android:icon="@drawable/ic_system_update_black_24dp"
+        android:title="Update Application"/>
+
+    <item android:id="@+id/install"
+        android:icon="@drawable/ic_vertical_align_bottom_black_24dp"
+        android:title="Install more APP"/>
+
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="About Developer"/>
+
+    <item android:id="@+id/share"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:title="Share"/>
+
+    <item android:id="@+id/exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="Exit Application"/>
+
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tutorial.android.android_tutorial">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app"
+        android:label="Android Tutorial"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".about_us" />
+        <activity android:name=".assignment" />
+        <activity android:name=".interview" />
+        <activity android:name=".tutorial" />
+        <activity android:name=".What_is_android" />
+        <activity android:name=".History" />
+        <activity android:name=".architecture" />
+        <activity android:name=".emulator" />
+        <activity android:name=".widgets" />
+        <activity android:name=".activity" />
+        <activity android:name=".optionmenu" />
+        <activity android:name=".service" />
+        <activity android:name=".Quiz" />
+        <activity android:name=".result" />
+        <activity android:name=".graphic" />
+        <activity android:name=".web" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".toast" />
+        <activity android:name=".spinner" />
+        <activity android:name=".ratingbar" />
+        <activity android:name=".progress" />
+        <activity android:name=".startactivity" />
+        <activity android:name=".context" />
+        <activity android:name=".popup" />
+        <activity android:name=".sqlite_tutorial_example"></activity>
+    </application>
+
+</manifest>
